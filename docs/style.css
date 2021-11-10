@@ -1,7 +1,10 @@
+:root{
+    --primary-color: black;
+}
 .grille{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid #000;
+    border: 1px solid --primary-color;
     width: 500px;
     height: 500px;
     margin: 0 auto;
